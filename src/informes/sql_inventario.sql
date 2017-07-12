@@ -1,0 +1,1 @@
+SELECT * FROM dninventario WHERE INV_CODENC=$P{numfact}

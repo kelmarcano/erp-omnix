@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="inventario" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="08a96ce7-04cc-49ea-a2b4-64c8aa6540a3">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="numfact" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT * FROM dninventario WHERE INV_CODENC=$P{numfact}]]>
+	</queryString>
+	<field name="INV_EMPRESA" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="INV_ID" class="java.lang.Integer">
+		<fieldDescription><![CDATA[Campo de ID de la Tabla]]></fieldDescription>
+	</field>
+	<field name="INV_DATTIM" class="java.sql.Timestamp">
+		<fieldDescription><![CDATA[Campo de Fecha y Hora de Creacion del Registro]]></fieldDescription>
+	</field>
+	<field name="INV_USER" class="java.lang.String">
+		<fieldDescription><![CDATA[Usuario que Ingreso el Registro]]></fieldDescription>
+	</field>
+	<field name="INV_MACPC" class="java.lang.String">
+		<fieldDescription><![CDATA[Mac Address del Equipo que incluyo el Registro]]></fieldDescription>
+	</field>
+	<field name="INV_CODDOC" class="java.lang.String">
+		<fieldDescription><![CDATA[Codigo del Tipo de Documento]]></fieldDescription>
+	</field>
+	<field name="INV_CODPRO" class="java.lang.String">
+		<fieldDescription><![CDATA[Codigo del Producto]]></fieldDescription>
+	</field>
+	<field name="INV_CODENC" class="java.lang.String">
+		<fieldDescription><![CDATA[Numero del Documento (Encabezado)]]></fieldDescription>
+	</field>
+	<field name="INV_NUMDOC" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="INV_CODMAE" class="java.lang.String">
+		<fieldDescription><![CDATA[Codigo del Maestro (Cliente / Proveedor)]]></fieldDescription>
+	</field>
+	<field name="INV_UNIDAD" class="java.lang.String">
+		<fieldDescription><![CDATA[Codigo de la Unidad de Medida]]></fieldDescription>
+	</field>
+	<field name="INV_CANUND" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="INV_LOGICO" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Valor para determinar si es una entrada (1) o salida (-1)]]></fieldDescription>
+	</field>
+	<field name="INV_FISICO" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Valor para determinar si es una entrada (1) o salida (-1)]]></fieldDescription>
+	</field>
+	<field name="INV_ITEM" class="java.lang.String">
+		<fieldDescription><![CDATA[Numero de Items del Documento]]></fieldDescription>
+	</field>
+	<field name="INV_CANTID" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Candida del Producto]]></fieldDescription>
+	</field>
+	<field name="INV_PRECIO" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Precio del Producto]]></fieldDescription>
+	</field>
+	<field name="INV_TOTAL" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Total del Producto (Cant x Prec)]]></fieldDescription>
+	</field>
+	<field name="INV_ACTIVO" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[Determina si el Item esta Activo en el Documento.]]></fieldDescription>
+	</field>
+	<group name="INV_CODPRO">
+		<groupExpression><![CDATA[$F{INV_CODPRO}]]></groupExpression>
+	</group>
+	<group name="INV_UNIDAD">
+		<groupExpression><![CDATA[$F{INV_UNIDAD}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<textField>
+				<reportElement x="364" y="11" width="100" height="20" uuid="8e27a00c-e17e-4022-83ee-9fc9299c385d"/>
+				<textFieldExpression><![CDATA[$F{INV_CANUND}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="264" y="11" width="100" height="20" uuid="c25575fe-367e-4e8f-83ee-e4802ef3be34"/>
+				<textFieldExpression><![CDATA[$F{INV_UNIDAD}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="134" y="11" width="100" height="20" uuid="46c5a94d-0ea1-4698-a123-1b463eb8f203"/>
+				<textFieldExpression><![CDATA[$F{INV_CODPRO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

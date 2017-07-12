@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report name" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="31a62e9a-cd22-4000-a23d-ceb9912eae1b">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="numfact" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT ENC_CODIGO, ENC_CODDOC, INV_CODPRO,PRO_DESCRI,INV_CANTID,ENC_BASE,ENC_IVA,
+ENC_MONTO,MAE_CODIGO,MAE_NOMBRE,MAE_RIF,MAE_EMAIL FROM dnencabezado
+LEFT JOIN dninventario ON INV_CODPRO=ENC_CODIGO
+LEFT JOIN dnproducto ON PRO_CODIGO=INV_CODPRO
+LEFT JOIN dnprecio ON PRE_CODIGO=PRO_CODIGO
+INNER JOIN dnmaestro ON MAE_CODIGO=ENC_CODMAE
+WHERE ENC_CODIGO=$P{numfact}]]>
+	</queryString>
+	<field name="ENC_CODIGO" class="java.lang.String">
+		<fieldDescription><![CDATA[Numero del Documento]]></fieldDescription>
+	</field>
+	<field name="ENC_CODDOC" class="java.lang.String">
+		<fieldDescription><![CDATA[Codigo del Tipo de Documento]]></fieldDescription>
+	</field>
+	<field name="INV_CODPRO" class="java.lang.String">
+		<fieldDescription><![CDATA[Codigo del Producto]]></fieldDescription>
+	</field>
+	<field name="PRO_DESCRI" class="java.lang.String">
+		<fieldDescription><![CDATA[Descripcion del Producto]]></fieldDescription>
+	</field>
+	<field name="INV_CANTID" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Candida del Producto]]></fieldDescription>
+	</field>
+	<field name="ENC_BASE" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Monto Base del Documento]]></fieldDescription>
+	</field>
+	<field name="ENC_IVA" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Iva del Documento]]></fieldDescription>
+	</field>
+	<field name="ENC_MONTO" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Total del Documento]]></fieldDescription>
+	</field>
+	<field name="MAE_CODIGO" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="MAE_NOMBRE" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="MAE_RIF" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="MAE_EMAIL" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<variable name="total" class="java.lang.String" calculation="Sum">
+		<variableExpression><![CDATA[$F{ENC_IVA}]]></variableExpression>
+	</variable>
+	<variable name="iva" class="java.lang.String" calculation="Sum">
+		<variableExpression><![CDATA[$F{ENC_MONTO}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="128" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="83bab63e-f854-4c7c-a85f-dca2cf247664" x="210" y="6" width="161" height="36"/>
+				<textElement textAlignment="Center">
+					<font fontName="Calibri" size="24" isBold="true" isItalic="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[FACTURA]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement uuid="a068a1b9-4b93-44fe-894f-fa82a6e25d52" x="0" y="4" width="200" height="50"/>
+				<imageExpression><![CDATA["C:\\OmnixErp\\build\\classes\\imagenes\\omnix_logo.png"]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement uuid="90a6134e-a878-4611-9283-fa464593c5a3" x="455" y="6" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ENC_CODIGO}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="8d046744-13b6-435b-b401-de7bac1b22e3" x="395" y="6" width="57" height="20"/>
+				<textElement/>
+				<text><![CDATA[N° Factura: ]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="7c022bfc-2997-47b3-9a56-be4bbd960521" x="395" y="34" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="6f9b73ef-6bb0-4ef7-8dd8-3edd258af860" x="4" y="69" width="173" height="54"/>
+				<textElement/>
+				<text><![CDATA[24 4th Ave Fairport, New York 14450
+Phone: (585) 200-1801
+OmnixSolutions@gmail.com
+]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="79" splitType="Stretch">
+			<textField>
+				<reportElement uuid="b6e25681-a23f-4c5a-b889-1c7ef05605bb" x="50" y="5" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{MAE_NOMBRE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="cbc563eb-eb1c-4a5f-8856-2e1c8cd3f02d" x="50" y="28" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{MAE_RIF}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="adcaa34b-4eed-4006-94b6-48b792932ce5" x="3" y="5" width="45" height="20"/>
+				<textElement/>
+				<text><![CDATA[Cliente: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6774f848-238d-4cf9-9995-aad36237e6cd" x="4" y="28" width="44" height="20"/>
+				<textElement/>
+				<text><![CDATA[Rif:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="13b13d13-fc39-44f9-90d5-75ca9546dd19" x="50" y="52" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{MAE_EMAIL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="4637c727-cde4-44dd-a352-7cbd4cf53fe6" x="4" y="52" width="44" height="20"/>
+				<textElement/>
+				<text><![CDATA[Email:]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="23" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="a31612da-5e04-400c-b31c-f6959d2ba458" x="0" y="1" width="555" height="20"/>
+			</rectangle>
+			<staticText>
+				<reportElement uuid="a5431889-befc-48b8-aea3-a67905d02054" x="4" y="2" width="99" height="20"/>
+				<textElement/>
+				<text><![CDATA[Codigo del Producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b3190ac7-1404-47ec-8ab5-9fb5ac771508" x="110" y="2" width="130" height="20"/>
+				<textElement/>
+				<text><![CDATA[Descripcion del Producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9da89aed-5975-4e3e-adf3-b3f488d799f2" x="240" y="2" width="112" height="20"/>
+				<textElement/>
+				<text><![CDATA[Cantidad del Producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="78e11cd1-104e-490d-805e-3c18f96eb495" x="360" y="2" width="88" height="20"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[Monto Base]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="350ebec5-763e-45c2-b60c-d4e82ef65fc6" x="463" y="2" width="83" height="20"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="29" splitType="Stretch">
+			<textField>
+				<reportElement uuid="31fb113b-b764-4e5e-98c2-bf9c9c9bbd27" x="3" y="4" width="100" height="20"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{INV_CODPRO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="6854cf0d-5242-400a-a6c8-37ab5c004afe" x="110" y="4" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{PRO_DESCRI}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="911ae229-8825-4e67-a325-e2a715c4511e" x="240" y="4" width="100" height="20"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{INV_CANTID}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f1a0f2b0-4a90-47ad-a467-1aada3ec0559" x="361" y="4" width="87" height="20"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{ENC_BASE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="17bfb105-b932-4744-8cf7-b65e624d4ea3" x="455" y="4" width="91" height="20"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{ENC_MONTO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="50" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="03d3abc2-2607-4c9a-87c3-98f0ac4ed036" x="418" y="3" width="26" height="22"/>
+				<textElement/>
+				<text><![CDATA[I.V.A]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1950eb65-f51b-4f23-abde-354a71f4a736" x="383" y="27" width="61" height="20"/>
+				<textElement textAlignment="Right"/>
+				<text><![CDATA[Total + IVA]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="b2c1a79b-123d-461f-832b-6454cf76190d" x="455" y="3" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ENC_IVA}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

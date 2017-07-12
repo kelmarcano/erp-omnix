@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omnixsolutionsTrl language="en_US">
+<!-- ********************************** -->
+<!--        Formulario Principal        -->
+<!--               Menus                -->
+<!-- ********************************** -->
+   <form_principal_Sistema id="1">
+      <value>
+         <Menu>System</Menu>
+      </value>
+   </form_principal_Sistema>
+   <form_principal_Modulos id="2">
+      <value>
+         <Menu>Modules</Menu>
+      </value>
+   </form_principal_Modulos>
+   <form_principal_Reportes id="3">
+      <value>
+         <Menu>Reports</Menu>
+      </value>
+   </form_principal_Reportes>
+   <form_principal_Configuracion id="4">
+      <value>
+         <Menu>Settings</Menu>
+      </value>
+   </form_principal_Configuracion>
+   <form_principal_Ayuda id="5">
+      <value>
+         <Menu>Help</Menu>
+      </value>
+   </form_principal_Ayuda>
+   <form_principal_Usuarios id="6">
+      <value>
+         <Menu>Users</Menu>
+      </value>
+   </form_principal_Usuarios>>
+   <form_principal_Cambio_de_Usuario id="7">
+      <value>
+         <Menu>Change User</Menu>
+      </value>
+   </form_principal_Cambio_de_Usuario>
+   <form_principal_Configurar_Pemisologias_de_Usuarios id="8">
+      <value>
+         <Menu>Change User Privileges</Menu>
+      </value>
+   </form_principal_Configurar_Pemisologias_de_Usuarios>
+   <form_principal_Inventario id="9">
+      <value>
+         <Menu>Inventory</Menu>
+      </value>
+   </form_principal_Inventario>>
+   <form_principal_Facturacion id="10">
+      <value>
+         <Menu>Invoicing</Menu>
+      </value>
+   </form_principal_Facturacion>
+   <form_principal_Productos id="11">
+      <value>
+         <Menu>Products</Menu>
+      </value>
+   </form_principal_Productos>>
+   <form_principal_Ventas id="12">
+      <value>
+         <Menu>Sales</Menu>
+      </value>
+   </form_principal_Ventas>>
+   <form_principal_Compras id="13">
+      <value>
+         <Menu>Purchases</Menu>
+      </value>
+   </form_principal_Compras>>
+   <form_principal_Clientes id="14">
+      <value>
+         <Menu>Clients</Menu>
+      </value>
+   </form_principal_Clientes>>
+   <form_principal_Factura_de_Ventas id="15">
+      <value>
+         <Menu>Sales Invoice</Menu>
+      </value>
+   </form_principal_Factura_de_Ventas>
+   <form_principal_Proveedores id="16">
+      <value>
+         <Menu>Suppliers</Menu>
+      </value>
+   </form_principal_Proveedores>>
+   <form_principal_Factura_de_Compras id="17">
+      <value>
+         <Menu>Purchase Invoice</Menu>
+      </value>
+   </form_principal_Factura_de_Compras>
+   <form_principal_Sistemas id="18">
+      <value>
+         <Menu>Systems</Menu>
+      </value>
+   </form_principal_Sistemas>>
+   <form_principal_Conexion id="19">
+      <value>
+         <Menu>Connection</Menu>
+      </value>
+   </form_principal_Conexion>>
+   <form_principal_Crear_Conexion_a_Base_de_Datos id="20">
+      <value>
+         <Menu>Connect to Database</Menu>
+      </value>
+   </form_principal_Crear_Conexion_a_Base_de_Datos>
+   <form_principal_Respaldar_Base_de_Datos id="21">
+      <value>
+         <Menu>Backup Database</Menu>
+      </value>
+   </form_principal_Respaldar_Base_de_Datos>
+   <form_principal_Restaurar_Base_de_Datos id="22">
+      <value>
+         <Menu>Restore Database</Menu>
+      </value>
+   </form_principal_Restaurar_Base_de_Datos>
+   <form_principal_Tipo_de_Maestros id="23">
+      <value>
+         <Menu>Masters Type</Menu>
+      </value>
+   </form_principal_Tipo_de_Maestros>
+   <form_principal_Tipo_de_Contactos id="24">
+      <value>
+         <Menu>Contacts Type</Menu>
+      </value>
+   </form_principal_Tipo_de_Contactos>
+   <form_principal_Estructura_de_Ctas id="25">
+      <value>
+         <Menu>Account Structure</Menu>
+      </value>
+   </form_principal_Estructura_de_Ctas>
+   <form_principal_Actividad id="26">
+      <value>
+         <Menu>Activity</Menu>
+      </value>
+   </form_principal_Actividad>
+   <form_principal_Moneda id="27">
+      <value>
+         <Menu>Currency</Menu>
+      </value>
+   </form_principal_Moneda>
+   <form_principal_Precios id="28">
+      <value>
+         <Menu>Prices</Menu>
+      </value>
+   </form_principal_Precios>>
+   <form_principal_Unidad_de_Medida id="29">
+      <value>
+         <Menu>Unit of Measurement</Menu>
+      </value>
+   </form_principal_Unidad_de_Medida>
+   <form_principal_Grupo id="30">
+      <value>
+         <Menu>Group</Menu>
+      </value>
+   </form_principal_Grupo>>
+   <form_principal_Tipo_de_Documentos id="31">
+      <value>
+         <Menu>Documents Type</Menu>
+      </value>
+   </form_principal_Tipo_de_Documentos>
+   <form_principal_Vendedores id="32">
+      <value>
+         <Menu>Sellers</Menu>
+      </value>
+   </form_principal_Vendedores>>
+   <form_principal_Direcciones id="33">
+      <value>
+         <Menu>Addresses</Menu>
+      </value>
+   </form_principal_Direcciones>>
+   <form_principal_Personalizar id="34">
+      <value>
+         <Menu>Personalize</Menu>
+      </value>
+   </form_principal_Personalizar>>
+   <form_principal_Empresa id="35">
+      <value>
+         <Menu>Company</Menu>
+      </value>
+   </form_principal_Empresa>>
+   <form_principal_Region id="36">
+      <value>
+         <Menu>Region</Menu>
+      </value>
+   </form_principal_Region>
+   <form_principal_Sucursal id="37">
+      <value>
+         <Menu>Branch</Menu>
+      </value>
+   </form_principal_Sucursal>>
+   <form_principal_Acerca_De id="38">
+      <value>
+         <Menu>About...</Menu>
+      </value>
+   </form_principal_Acerca_De>>
+   <form_principal_Grupos_de_Permisos_de_Usuarios id="39">
+      <value>
+         <Menu>User Privileges Group</Menu>
+      </value>
+   </form_principal_Grupos_de_Permisos_de_Usuarios>
+   <form_principal_Permisologias id="40">
+      <value>
+         <Menu>Privileges</Menu>
+      </value>
+   </form_principal_Permisologias>>
+   <form_principal_Salir id="41">
+      <value>
+         <Menu>Exit</Menu>
+      </value>
+   </form_principal_Salir>>   
+</omnixsolutionsTrl>

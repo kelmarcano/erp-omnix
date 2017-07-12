@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Usuarios" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dce4ed21-0756-4516-8997-ed5f72318e6c">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="codigo" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="usuario" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT
+     DNUSUARIOS.`OPE_NUMERO`,
+     DNUSUARIOS.`OPE_NOMBRE`,
+     DNUSUARIOS.`OPE_CLAVE`,
+     DNUSUARIOS.`OPE_CARGO`,
+     DNUSUARIOS.`OPE_TIPO`,
+     DNUSUARIOS.`OPE_ACTIVO`
+FROM
+     `DNUSUARIOS` DNUSUARIOS
+WHERE
+     OPE_NUMERO = $P{codigo}
+  OR OPE_NOMBRE = $P{usuario}]]>
+	</queryString>
+	<field name="OPE_NUMERO" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="OPE_NOMBRE" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="OPE_CLAVE" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="OPE_CARGO" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="OPE_TIPO" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="OPE_ACTIVO" class="java.lang.Boolean">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<group name="OPE_NUMERO">
+		<groupExpression><![CDATA[$F{OPE_NUMERO}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="73" splitType="Stretch">
+			<image>
+				<reportElement x="3" y="3" width="159" height="50" uuid="4b85d91b-2d82-489a-8832-eeea0b45b142"/>
+				<imageExpression><![CDATA["C:\\Google Drive\\Administrativo\\src\\imagenes\\cval1.jpg"]]></imageExpression>
+			</image>
+			<textField pattern="EEE, d MMM yyyy HH:mm:ss Z">
+				<reportElement x="386" y="3" width="169" height="20" uuid="069d18ba-fda6-4b6e-bb4c-9d93abe74883"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="339" y="3" width="100" height="20" uuid="be25afc9-33b3-4617-9102-9492ec0dfdc6"/>
+				<text><![CDATA[Fecha:]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="15" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="32" splitType="Stretch">
+			<staticText>
+				<reportElement x="-7" y="12" width="83" height="20" uuid="dbabd4b8-5773-4a1f-9e26-385595a7072d"/>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[CODIGO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="75" y="12" width="100" height="20" uuid="a671a5e5-536b-43ac-b1de-00a5aaf9c2fd"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[USUARIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="175" y="12" width="100" height="20" uuid="0e21a854-a08d-4ced-972f-0eb656ee1d67"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[CONTRASEÑA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="259" y="12" width="100" height="20" uuid="9188bc58-ff5b-470c-9b9b-eaf1364527c9"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[CARGO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="347" y="12" width="100" height="20" uuid="acd3e67d-849c-4372-aa3e-9788c5d1e380"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[TIPO USUARIO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="439" y="12" width="100" height="20" uuid="f69ee6de-0824-4bf5-8313-3132d67e306d"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[ESTATUS]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="24" splitType="Stretch">
+			<textField>
+				<reportElement x="-6" y="0" width="83" height="20" uuid="80524bb8-fcce-4d29-bd45-134c27446ca9"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{OPE_NUMERO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="75" y="0" width="100" height="20" uuid="47051839-78b7-4fba-9912-aae80c7c8aad"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{OPE_NOMBRE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="169" y="0" width="100" height="20" uuid="ab9544e4-f49b-4351-9eba-3cb85449c0f6"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{OPE_CLAVE}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="264" y="0" width="100" height="20" uuid="a18e2f75-7c4f-44ee-a771-b6ba6a57b1c0"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{OPE_CARGO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="345" y="0" width="100" height="20" uuid="ac475c35-35b1-4665-8ada-85127945941b"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{OPE_TIPO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="445" y="0" width="100" height="20" uuid="b2b55fc3-69be-4df6-85e7-603ed47a374a"/>
+				<textElement textAlignment="Center">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{OPE_ACTIVO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="22" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="28" splitType="Stretch">
+			<textField>
+				<reportElement x="453" y="2" width="100" height="20" uuid="c26789f3-0dd8-4ad4-8852-ac7d6e08f609"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="24" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omnixsolutionsTrl language="es_VE">
+     <row id="1">
+          <value>
+               <Idioma>Español (es_AR)</Idioma>
+          </value>
+     </row>
+     <row id="2">
+          <value>
+               <Idioma>Português (pt_BR)</Idioma>
+          </value>
+     </row>
+     <row id="3">
+          <value>
+               <Idioma>Español (es_CH)</Idioma>
+          </value>
+     </row>
+     <row id="4">
+          <value>
+               <Idioma>中國 (zh_CN)</Idioma>
+          </value>
+     </row>
+     <row id="5">
+          <value>
+               <Idioma>Español (es_CO)</Idioma>
+          </value>
+     </row>
+     <row id="6">
+          <value>
+               <Idioma>Japones (ja_JP)</Idioma>
+          </value>
+     </row>
+     <row id="7">
+          <value>
+               <Idioma>Español (es_MX)</Idioma>
+          </value>
+     </row>
+     <row id="8">
+          <value>
+               <Idioma>English (en_US)</Idioma>
+          </value>
+     </row>
+     <row id="9">
+          <value>
+               <Idioma>Español (es_VE)</Idioma>
+          </value>
+     </row>
+	      <row id="10">
+          <value>
+               <Idioma>Español (es_ES)</Idioma>
+          </value>
+     </row>
+</omnixsolutionsTrl>

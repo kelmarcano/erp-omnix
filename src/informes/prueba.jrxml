@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="prueba" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="62ca712d-d475-4601-a73e-a1e21aefcbd5">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="numfact" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT INV_CODDOC,INV_CODPRO,INV_CANTID,INV_PRECIO,INV_NUMDOC
+FROM DNINVENTARIO
+WHERE INV_NUMDOC = $P{numfact}]]>
+	</queryString>
+	<field name="INV_CODDOC" class="java.lang.String">
+		<fieldDescription><![CDATA[Codigo del Tipo de Documento]]></fieldDescription>
+	</field>
+	<field name="INV_CODPRO" class="java.lang.String">
+		<fieldDescription><![CDATA[Codigo del Producto]]></fieldDescription>
+	</field>
+	<field name="INV_CANTID" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Candida del Producto]]></fieldDescription>
+	</field>
+	<field name="INV_PRECIO" class="java.math.BigDecimal">
+		<fieldDescription><![CDATA[Precio del Producto]]></fieldDescription>
+	</field>
+	<field name="INV_NUMDOC" class="java.lang.String">
+		<fieldDescription><![CDATA[Numero de Documento]]></fieldDescription>
+	</field>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="92" backcolor="#006699" uuid="cff7c3c6-7bff-4e1f-a4f8-72d64d2dc302"/>
+				<staticText>
+					<reportElement x="20" y="20" width="234" height="43" forecolor="#FFFFFF" uuid="2bfc7994-0c6e-409c-91b9-b77259f3a3c1"/>
+					<textElement>
+						<font size="34" isBold="true"/>
+					</textElement>
+					<text><![CDATA[TITLE]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="395" y="43" width="180" height="20" forecolor="#FFFFFF" uuid="5c2b7407-9032-4919-9c54-2851bfbe1e79"/>
+					<textElement textAlignment="Right">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Add a description here]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="13"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="21">
+			<staticText>
+				<reportElement x="51" y="1" width="117" height="20" uuid="7eec45c3-1e46-4383-b990-e5b1c74a0e46"/>
+				<text><![CDATA[Numero de Documento]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="1" width="100" height="20" uuid="0b0a123d-d5b3-4560-91aa-813f1c98abb6"/>
+				<text><![CDATA[Codigo del Producto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="380" y="1" width="100" height="20" uuid="15aac311-8c88-41f8-a030-d83d2a253835"/>
+				<text><![CDATA[Precio del Producto]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="24">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="0" y="19" width="555" height="1" uuid="1099464d-388f-4425-90ce-99026e6ff24f"/>
+			</line>
+			<textField>
+				<reportElement x="51" y="4" width="100" height="20" uuid="495e9b75-1d68-4c33-8045-f66b130dfa7a"/>
+				<textFieldExpression><![CDATA[$F{INV_NUMDOC}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="4" width="100" height="20" uuid="203527d9-30e1-4eff-85df-5c87dec0a8d6"/>
+				<textFieldExpression><![CDATA[$F{INV_CODPRO}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="380" y="4" width="100" height="20" uuid="66a9c2c2-55f6-4ca1-8039-d10a354c67b2"/>
+				<textFieldExpression><![CDATA[$F{INV_PRECIO}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="7ba85148-4b7c-4fac-acc6-882484a70cc1"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="5a8f5a36-83da-4781-91cd-c88ff0f1f39c"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="c0ad1d8a-0c51-4b1a-8cae-6d221b1a9558"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omnixsolutionsTrl language="es_VE">
+<!-- ********************************** -->
+<!-- Formulario de Creacion de Usuarios -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_CrearUsuarios id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="2">
+      <value>
+         <Header_Table>Usuario</Header_Table>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="3">
+      <value>
+         <Header_Table>Clave</Header_Table>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="4">
+      <value>
+         <Header_Table>Cargo</Header_Table>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="5">
+      <value>
+         <Header_Table>Tipo de Usuario</Header_Table>
+      </value>
+   </form_CrearUsuarios>
+   
+<!-- ********************************** -->
+<!--   Formulario Grupos de Permisos    -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_GruposPermisos id="1">
+      <value>
+         <Header_Table>Id</Header_Table>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="2">
+      <value>
+         <Header_Table>Nombre</Header_Table>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="3">
+      <value>
+         <Header_Table>Tipo de Menu</Header_Table>
+      </value>
+   </form_GruposPermisos>
+   
+<!-- ********************************** -->
+<!--      Formulario Permisologias      -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_Permisologias id="1">
+      <value>
+         <Header_Table>Id Menu</Header_Table>
+      </value>
+   </form_Permisologias>
+   <form_Permisologias id="2">
+      <value>
+         <Header_Table>Nombre Menu</Header_Table>
+      </value>
+   </form_Permisologias>
+   <form_Permisologias id="3">
+      <value>
+         <Header_Table>Activo</Header_Table>
+      </value>
+   </form_Permisologias>
+   
+<!-- ********************************** -->
+<!--        Formulario Maestros         -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_Maestros id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="2">
+      <value>
+         <Header_Table>Nombre Cliente</Header_Table>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="3">
+      <value>
+         <Header_Table>Tipo Maestro</Header_Table>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="4">
+      <value>
+         <Header_Table>Actividad</Header_Table>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="5">
+      <value>
+         <Header_Table>Nombre Proveedor</Header_Table>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="6">
+      <value>
+         <Header_Table>Nombre Maestro</Header_Table>
+      </value>
+   </form_Maestros>
+   
+<!-- ********************************** -->
+<!--        Formulario Documentos       -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_Documentos id="1">
+      <value>
+         <Header_Table>N° Factura</Header_Table>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="2">
+      <value>
+         <Header_Table>Código Producto</Header_Table>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="3">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="4">
+      <value>
+         <Header_Table>Und. Medida</Header_Table>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="5">
+      <value>
+         <Header_Table>Cant. x Und.</Header_Table>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="6">
+      <value>
+         <Header_Table>Cantidad</Header_Table>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="7">
+      <value>
+         <Header_Table>Precio Unitario</Header_Table>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="8">
+      <value>
+         <Header_Table>Total Producto</Header_Table>
+      </value>
+   </form_Documentos>
+   
+<!-- ********************************** -->
+<!--     Formulario Buscar Maestros     -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_BuscarMaestro id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_BuscarMaestro>
+   <form_BuscarMaestro id="2">
+      <value>
+         <Header_Table>Rif</Header_Table>
+      </value>
+   </form_BuscarMaestro>
+   <form_BuscarMaestro id="3">
+      <value>
+         <Header_Table>Nombre</Header_Table>
+      </value>
+   </form_BuscarMaestro>
+   
+<!-- ********************************** -->
+<!--      Formulario Agrega Detalle     -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_Agregaraldetalle id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_Agregaraldetalle>
+   <form_Agregaraldetalle id="2">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_Agregaraldetalle>
+   <form_Agregaraldetalle id="3">
+      <value>
+         <Header_Table>Precio</Header_Table>
+      </value>
+   </form_Agregaraldetalle>
+   
+<!-- ********************************** -->
+<!--        Formulario Actividad        -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_Actividad id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="2">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_Actividad>
+   
+<!-- ********************************** -->
+<!--      Formulario Estructura Cta     -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_Estructura id="1">
+      <value>
+         <Header_Table>Catálogo</Header_Table>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="2">
+      <value>
+         <Header_Table>Tipo de Cuenta</Header_Table>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="3">
+      <value>
+         <Header_Table>Secuencia</Header_Table>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="4">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="5">
+      <value>
+         <Header_Table>Longitud</Header_Table>
+      </value>
+   </form_Estructura>
+   
+<!-- ********************************** -->
+<!--      Formulario Lista Precios      -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_ListaPrecios id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="2">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_ListaPrecios>
+   
+<!-- ********************************** -->
+<!--         Formulario Moneda          -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_Moneda id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="2">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="3">
+      <value>
+         <Header_Table>Tip. Moneda</Header_Table>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="4">
+      <value>
+         <Header_Table>Valor</Header_Table>
+      </value>
+   </form_Moneda>
+   
+<!-- ********************************** -->
+<!--         Formulario Precio          -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_Precio id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_Precio>
+   <form_Precio id="2">
+      <value>
+         <Header_Table>Cód. Producto</Header_Table>
+      </value>
+   </form_Precio>
+   <form_Precio id="3">
+      <value>
+         <Header_Table>Tipo Precio</Header_Table>
+      </value>
+   </form_Precio>
+   <form_Precio id="4">
+      <value>
+         <Header_Table>Precio Prod.</Header_Table>
+      </value>
+   </form_Precio>
+   
+<!-- ********************************** -->
+<!--         Formulario TipoDoc         -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_TipDocumentos id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="2">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="3">
+      <value>
+         <Header_Table>Activo</Header_Table>
+      </value>
+   </form_TipDocumentos>
+   
+<!-- ********************************** -->
+<!--      Formulario Tipo Contacto      -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_TipoContacto id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="2">
+      <value>
+         <Header_Table>Contacto</Header_Table>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="3">
+      <value>
+         <Header_Table>Activo</Header_Table>
+      </value>
+   </form_TipoContacto>
+   
+<!-- ********************************** -->
+<!--      Formulario Tipo Maestros      -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_TipoMaestros id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="2">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_TipoMaestros>
+   
+<!-- ********************************** -->
+<!--        Formulario Und Medida       -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_UnidadMedida id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="2">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="3">
+      <value>
+         <Header_Table>Cantidad</Header_Table>
+      </value>
+   </form_UnidadMedida>
+   
+<!-- ********************************** -->
+<!--       Formulario Direcciones       -->
+<!--       Cabecera de la tablas        -->
+<!-- ********************************** -->
+   <form_Direcciones id="1">
+      <value>
+         <Header_Table>Código</Header_Table>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="2">
+      <value>
+         <Header_Table>Descripción</Header_Table>
+      </value>
+   </form_Direcciones>
+</omnixsolutionsTrl>

@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omnixsolutionsTrl language="en_US">
+<!-- ********************************** -->
+<!--      Formulario ConfigConexion     -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_ConfigurarConexion id="1">
+      <value>
+         <Message>You must enter the IP + Server Port</Message>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="2">
+      <value>
+         <Message>You must enter the connecting MySQL user</Message>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="3">
+      <value>
+         <Message>You must enter the Database to be connected</Message>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="4">
+      <value>
+         <Message>You must enter the connecting PostGreSQL user</Message>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="5">
+      <value>
+         <Message>This configuration already exists</Message>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="6">
+      <value>
+         <Message>Write Error</Message>
+      </value>
+   </form_ConfigurarConexion>
+   
+<!-- ********************************** -->
+<!--           Clase Conexion           -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <clase_conexion id="1">
+      <value>
+         <Message>Enter the Password</Message>
+      </value>
+   </clase_conexion>
+   <clase_conexion id="2">
+      <value>
+         <Message>The indicated Database does not exist, Do you wish to create it?</Message>
+      </value>
+   </clase_conexion>
+   <clase_conexion id="3">
+      <value>
+         <Message>Connection Error</Message>
+      </value>
+   </clase_conexion>
+   <clase_conexion id="4">
+      <value>
+         <Message>Enter your username and password</Message>
+      </value>
+   </clase_conexion>
+   <clase_conexion id="5">
+      <value>
+         <Message>Database Server not connected</Message>
+      </value>
+   </clase_conexion>
+
+<!-- ********************************** -->
+<!--        Formulario de Inicio        -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_inicio id="1">
+      <value>
+         <Message>Do you wish to exit the system?</Message>
+      </value>
+   </form_inicio>
+   <form_inicio id="2">
+      <value>
+         <Message>Access to the Business Process Manager granted</Message>
+      </value>
+   </form_inicio>
+   <form_inicio id="3">
+      <value>
+         <Message>The XML file with the chosen language does not Exist</Message>
+      </value>
+   </form_inicio>
+   <form_inicio id="4">
+      <value>
+         <Message>Notification</Message>
+      </value>
+   </form_inicio>
+
+<!-- ********************************** -->
+<!--       Formulario de Principal      -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_principal id="1">
+      <value>
+         <Message>You can't close the application while there is an open form</Message>
+      </value>
+   </form_principal>
+   <form_principal id="2">
+      <value>
+         <Message>Close not allowed</Message>
+      </value>
+   </form_principal>
+   <form_principal id="3">
+      <value>
+         <Message>Do you wish to exit the system?</Message>
+      </value>
+   </form_principal>
+   
+<!-- ********************************** -->
+<!-- Formulario de Creacion de Usuarios -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_CrearUsuarios id="1">
+      <value>
+         <Message>Do you want to cancel the User Creation?</Message>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="2">
+      <value>
+         <Message>Do you want to cancel the User Modification?</Message>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="3">
+      <value>
+         <Message>Do you want to Delete the User?</Message>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="4">
+      <value>
+         <Message>You can't save this code again</Message>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="5">
+      <value>
+         <Message>You must enter the User Code</Message>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="6">
+      <value>
+         <Message>You must enter the User's name</Message>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="7">
+      <value>
+         <Message>You must enter the System's Username</Message>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="8">
+      <value>
+         <Message>You must enter the User's Password</Message>
+      </value>
+   </form_CrearUsuarios>
+   
+<!-- ********************************** -->
+<!--   Formulario Grupos de Permisos    -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_GruposPermisos id="1">
+      <value>
+         <Message>Do you want to Delete the Group Privilege # </Message>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="2">
+      <value>
+         <Message>Do you want to cancel the creation of the Group Privilege?</Message>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="3">
+      <value>
+         <Message>Do you want to cancel the Group Privilege Modification?</Message>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="4">
+      <value>
+         <Message>You must enter the Group Privilege's code</Message>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="5">
+      <value>
+         <Message>You must enter the name of the Group Privilege</Message>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="6">
+      <value>
+         <Message>You must select the Application that will use the Menu</Message>
+      </value>
+   </form_GruposPermisos>
+   
+<!-- ********************************** -->
+<!--         Formulario Maestros        -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_Maestros id="1">
+      <value>
+         <Message>You can't save the code again</Message>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="2">
+      <value>
+         <Message>You must enter the Master's code</Message>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="3">
+      <value>
+         <Message>You must enter the Master's name</Message>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="4">
+      <value>
+         <Message>You must enter the Business Activity</Message>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="5">
+      <value>
+         <Message>You want to delete the Master # </Message>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="6">
+      <value>
+         <Message>You want to cancel the Master creation?</Message>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="7">
+      <value>
+         <Message>You want to cancel the Master modification?</Message>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="8">
+      <value>
+         <Message>The form to load the Master Type has no entries</Message>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="9">
+      <value>
+         <Message>The form to load the Business Activity has no entries</Message>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="10">
+      <value>
+         <Message>The form to load the Currency Type has no entries</Message>
+      </value>
+   </form_Maestros>
+   
+<!-- ********************************** -->
+<!--        Formulario Documentos       -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_Documentos id="1">
+      <value>
+         <Message>The Document Type: ''</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="2">
+      <value>
+         <Message>'' does not exist!</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="3">
+      <value>
+         <Message>Notification</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="4">
+      <value>
+         <Message>The amount can't exceed stock availability, Please Verify</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="5">
+      <value>
+         <Message>Enter the Product amount</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="6">
+      <value>
+         <Message>The entered Client Code does not exist</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="7">
+      <value>
+         <Message>Warning</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="8">
+      <value>
+         <Message>The entered Supplier Code does not exist</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="9">
+      <value>
+         <Message>The entered Product Code does not exist</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="10">
+      <value>
+         <Message>The entered Document Number does not exist</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="11">
+      <value>
+         <Message>You must select a Client</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="12">
+      <value>
+         <Message>You must select a Supplier</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="13">
+      <value>
+         <Message>You must select a Seller</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="14">
+      <value>
+         <Message>You must enter at least one Item in the Document to Save it</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="15">
+      <value>
+         <Message>Document #: </Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="16">
+      <value>
+         <Message> Successfully Saved!</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="17">
+      <value>
+         <Message>Information</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="18">
+      <value>
+         <Message> Successfully Modified!</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="19">
+      <value>
+         <Message>Do you want to cancel the Creation of the </Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="20">
+      <value>
+         <Message>The Product does not have a Sales Tax configuration therefore it can't be added to the Document</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="21">
+      <value>
+         <Message>You must enter the Product's price</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="22">
+      <value>
+         <Message>You must select a Unit of Measurement</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="23">
+      <value>
+         <Message>It's necessary to select the Product</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="24">
+      <value>
+         <Message>You must enter the amount</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="25">
+      <value>
+         <Message>You must select a Product</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="26">
+      <value>
+         <Message>You must select a Supplier/Client</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="27">
+      <value>
+         <Message>You must select an Item from the Detail</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="28">
+      <value>
+         <Message>Are you sure you want to Delete this Item from the Detail?</Message>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="29">
+      <value>
+         <Message>Delete</Message>
+      </value>
+   </form_Documentos>
+   
+<!-- ********************************** -->
+<!--      Formulario Buscar Maestros    -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_BuscarMaestro id="1">
+      <value>
+         <Message>You must select a Master</Message>
+      </value>
+   </form_BuscarMaestro>
+   <form_BuscarMaestro id="2">
+      <value>
+         <Message>Warning</Message>
+      </value>
+   </form_BuscarMaestro>
+   
+<!-- ********************************** -->
+<!--      Formulario Agrega Detalle     -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_Agregaraldetalle id="1">
+      <value>
+         <Message>You must select a Product</Message>
+      </value>
+   </form_Agregaraldetalle>
+   <form_Agregaraldetalle id="2">
+      <value>
+         <Message>You must assign an amount</Message>
+      </value>
+   </form_Agregaraldetalle>
+   <form_Agregaraldetalle id="3">
+      <value>
+         <Message>Warning</Message>
+      </value>
+   </form_Agregaraldetalle>
+   
+<!-- ********************************** -->
+<!--        Formulario Actividad        -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_Actividad id="1">
+      <value>
+         <Message>You want to Delete the Activity # </Message>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="2">
+      <value>
+         <Message>You want to Cancel the Activity Creation?</Message>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="3">
+      <value>
+         <Message>You want to Cancel the Activity Modification?</Message>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="4">
+      <value>
+         <Message>You must enter the Activity Code</Message>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="5">
+      <value>
+         <Message>You must enter the Activity Description</Message>
+      </value>
+   </form_Actividad>
+   
+<!-- ********************************** -->
+<!--      Formulario Estructura Cta     -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_Estructura id="1">
+      <value>
+         <Message>You must enter the Catalogue Code</Message>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="2">
+      <value>
+         <Message>You must enter the Account Type</Message>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="3">
+      <value>
+         <Message>You must enter the Sequence</Message>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="4">
+      <value>
+         <Message>You must enter the Description</Message>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="5">
+      <value>
+         <Message>You must enter the Initial Position</Message>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="6">
+      <value>
+         <Message>You must enter the Length</Message>
+      </value>
+   </form_Estructura>
+   
+<!-- ********************************** -->
+<!--      Formulario Lista Precios      -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_ListaPrecios id="1">
+      <value>
+         <Message>You can't save the Code again</Message>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="2">
+      <value>
+         <Message>You must enter the Price Type Code</Message>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="3">
+      <value>
+         <Message>You must enter the Price Type Description</Message>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="4">
+      <value>
+         <Message>You want to Delete the Price Type # </Message>
+      </value>
+   </form_ListaPrecios>
+   
+<!-- ********************************** -->
+<!--         Formulario Moneda          -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_Moneda id="1">
+      <value>
+         <Message>You want to Delete the Currency '' </Message>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="2">
+      <value>
+         <Message>You want to Cancel the Currency Type Creation?</Message>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="3">
+      <value>
+         <Message>You want to Cancel the Currency Type Modification?</Message>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="4">
+      <value>
+         <Message>You can't save the Code again</Message>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="5">
+      <value>
+         <Message>You must enter the Currency Code</Message>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="6">
+      <value>
+         <Message>You must enter the Currency Name</Message>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="7">
+      <value>
+         <Message>You must enter the Currency Classification</Message>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="8">
+      <value>
+         <Message>You must enter the Currency Value</Message>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="9">
+      <value>
+         <Message>You must enter a Date</Message>
+      </value>
+   </form_Moneda>
+   
+<!-- ********************************** -->
+<!--         Formulario Precio          -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_Precio id="1">
+      <value>
+         <Message>The Form to load the Product Master has no entries</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="2">
+      <value>
+         <Message>Do you want to Add a Product Master?</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="3">
+      <value>
+         <Message>The Form to load the Price Type has no entries</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="4">
+      <value>
+         <Message>Do you want to add Price Types?</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="5">
+      <value>
+         <Message>The form to load Units of Measurement has no entries</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="6">
+      <value>
+         <Message>Do you want to Add a Unit of Measurement?</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="7">
+      <value>
+         <Message>Do you want to Delete the Price # </Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="8">
+      <value>
+         <Message>Do you want to cancel the Price Creation?</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="9">
+      <value>
+         <Message>Do you want to Cancel the Price Modification?</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="10">
+      <value>
+         <Message>You can't save the Code again</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="11">
+      <value>
+         <Message>You must enter the Price Code</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="12">
+      <value>
+         <Message>You must enter the Product Code</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="13">
+      <value>
+         <Message>You must enter the Price Type</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="14">
+      <value>
+         <Message>You must enter the Product Price</Message>
+      </value>
+   </form_Precio>
+   <form_Precio id="15">
+      <value>
+         <Message>You must enter a Date</Message>
+      </value>
+   </form_Precio>
+
+<!-- ********************************** -->
+<!--         Formulario TipoDoc         -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_TipDocumentos id="1">
+      <value>
+         <Message>You want to Delete the Document </Message>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="2">
+      <value>
+         <Message>You want to Cancel the Document Type Creation?</Message>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="3">
+      <value>
+         <Message>You want to Cancel the Document Type Modification?</Message>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="4">
+      <value>
+         <Message>You can't save the Code again</Message>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="5">
+      <value>
+         <Message>You must enter the Document Code</Message>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="6">
+      <value>
+         <Message>You must enter the Document Description</Message>
+      </value>
+   </form_TipDocumentos>
+
+<!-- ********************************** -->
+<!--      Formulario Tipo Contacto      -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_TipoContacto id="1">
+      <value>
+         <Message>Do you want to cancel the Contact Type Creation?</Message>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="2">
+      <value>
+         <Message>Do you want to Cancel the Contact Type Modification?</Message>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="3">
+      <value>
+         <Message>Do you want to Delete the Contact '' </Message>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="4">
+      <value>
+         <Message>You must enter the Master Type Code</Message>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="5">
+      <value>
+         <Message>You must enter the Master Type Description</Message>
+      </value>
+   </form_TipoContacto>
+   
+<!-- ********************************** -->
+<!--      Formulario Tipo Maestros      -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_TipoMaestros id="1">
+      <value>
+         <Message>Do you want to Delete the Group # </Message>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="2">
+      <value>
+         <Message>Do you want to Cancel the Master Type Creation?</Message>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="3">
+      <value>
+         <Message>Do you want to Cancel the Master Modification?</Message>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="4">
+      <value>
+         <Message>You must enter the Master Type Code</Message>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="5">
+      <value>
+         <Message>You must enter the Master Type Description</Message>
+      </value>
+   </form_TipoMaestros>
+   
+<!-- ********************************** -->
+<!--        Formulario Und Medida       -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_UnidadMedida id="1">
+      <value>
+         <Message>Do you want to Delete the Unit of Measurement ' </Message>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="2">
+      <value>
+         <Message>Do you want to Cancel the Creation of the Unit of Measurement?</Message>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="3">
+      <value>
+         <Message>Do you want to Cancel the Modification of the Unit of Measurement?</Message>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="4">
+      <value>
+         <Message>You can't save the Code again</Message>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="5">
+      <value>
+         <Message>You must enter the Unit of Measurement Code</Message>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="6">
+      <value>
+         <Message>You must enter the Description</Message>
+      </value>
+   </form_UnidadMedida>
+   
+<!-- ********************************** -->
+<!--       Formulario Direcciones       -->
+<!--              Mensajes              -->
+<!-- ********************************** -->
+   <form_Direcciones id="1">
+      <value>
+         <Message>You want to Delete the Address  # </Message>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="2">
+      <value>
+         <Message>You want to Cancel the Address Creation?</Message>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="3">
+      <value>
+         <Message>You want to Cancel the Address Modification?</Message>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="4">
+      <value>
+         <Message>You must enter the Address Code</Message>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="5">
+      <value>
+         <Message>You must enter the Address Description</Message>
+      </value>
+   </form_Direcciones>
+</omnixsolutionsTrl>

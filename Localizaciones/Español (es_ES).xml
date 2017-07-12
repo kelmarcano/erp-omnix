@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<omnixsolutionsTrl language="es_ES">
+<!-- ********************************** -->
+<!--       Formulario CongConexion      -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_ConfigurarConexion id="1">
+      <value>
+         <Componet>Conexión MySQL</Componet>
+      </value>
+   </form_ConfigurarConexion>
+	<form_ConfigurarConexion id="2">
+      <value>
+         <Componet>Conexión PostGreSQL</Componet>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="3">
+      <value>
+         <Componet>Localhost/IP-SERVIDOR+Puerto</Componet>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="4">
+      <value>
+         <Componet>Usuario</Componet>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="5">
+      <value>
+         <Componet>Contraseña</Componet>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="6">
+      <value>
+         <Componet>Base de Datos</Componet>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="7">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_ConfigurarConexion>
+   <form_ConfigurarConexion id="8">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_ConfigurarConexion>
+   
+<!-- ********************************** -->
+<!--           Clase Conexion           -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <clase_conexion id="1">
+      <value>
+         <Componet>Ingrese el Password para el Superusuario ''postgres''</Componet>
+      </value>
+   </clase_conexion>
+   
+<!-- ********************************** -->
+<!--        Formulario de Login         -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Login id="1">
+      <value>
+         <Componet>Usuario:</Componet>
+      </value>
+   </form_Login>
+   <form_Login id="2">
+      <value>
+         <Componet>Contraseña:</Componet>
+      </value>
+   </form_Login>
+   <form_Login id="3">
+      <value>
+         <Componet>Lenguaje:</Componet>
+      </value>
+   </form_Login>
+   <form_Login id="4">
+      <value>
+         <Componet>Empresas:</Componet>
+      </value>
+   </form_Login>
+
+<!--               Botones              -->
+   <form_Login id="5">
+      <value>
+         <Componet>Entrar</Componet>
+      </value>
+   </form_Login>
+   <form_Login id="6">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Login>
+
+<!-- ********************************** -->
+<!--       Formulario de Principal      -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_principal id="1">
+      <value>
+         <Componet>Factura</Componet>
+      </value>
+   </form_principal>
+   <form_principal id="2">
+      <value>
+         <Componet>Maestros</Componet>
+      </value>
+   </form_principal>
+   <form_principal id="3">
+      <value>
+         <Componet>Productos</Componet>
+      </value>
+   </form_principal>
+   
+<!-- ********************************** -->
+<!-- Formulario de Creacion de Usuarios -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_CrearUsuarios id="1">
+      <value>
+         <Componet>Código</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="2">
+      <value>
+         <Componet>Nombre del Usuario</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="3">
+      <value>
+         <Componet>Contraseña</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="4">
+      <value>
+         <Componet>Usuario del Sistema</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="5">
+      <value>
+         <Componet>Cargo</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="6">
+      <value>
+         <Componet>Correo Electronico</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="7">
+      <value>
+         <Componet>Grupo de Permisologias de Usuario</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="8">
+      <value>
+         <Componet>Ruta de Imagen</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="9">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_CrearUsuarios>
+
+<!--               CheckBox             -->
+   <form_CrearUsuarios id="10">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="11">
+      <value>
+         <Componet>Acceso Web</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="12">
+      <value>
+         <Componet>Acceso Android</Componet>
+      </value>
+   </form_CrearUsuarios>
+
+<!--               Botones              -->
+   <form_CrearUsuarios id="13">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="14">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="15">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="16">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="17">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="18">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="19">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="20">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_CrearUsuarios>
+   <form_CrearUsuarios id="21">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_CrearUsuarios>
+   
+<!-- ********************************** -->
+<!--   Formulario Grupos de Permisos    -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_GruposPermisos id="1">
+      <value>
+         <Componet>ID Permiso:</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="2">
+      <value>
+         <Componet>Nombre:</Componet>
+      </value>
+   </form_GruposPermisos>
+   
+<!--               CheckBox             -->
+   <form_GruposPermisos id="3">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_GruposPermisos>
+
+<!--             OptionBotton           -->
+   <form_GruposPermisos id="4">
+      <value>
+         <Componet>App Web</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="5">
+      <value>
+         <Componet>App Desktop</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="6">
+      <value>
+         <Componet>App Android</Componet>
+      </value>
+   </form_GruposPermisos>
+   
+<!--              Botones               -->
+   <form_GruposPermisos id="7">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="8">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="9">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="10">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="11">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="12">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="13">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="14">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_GruposPermisos>
+   <form_GruposPermisos id="15">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_GruposPermisos>
+   
+<!--              jPanel                -->
+   <form_GruposPermisos id="16">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_GruposPermisos>
+   
+<!-- ********************************** -->
+<!--      Formulario Permisologias      -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Permisologias id="1">
+      <value>
+         <Componet>Grupo de Permisologias de Usuario</Componet>
+      </value>
+   </form_Permisologias>
+   <form_Permisologias id="2">
+      <value>
+         <Componet>Menus Raiz Padre</Componet>
+      </value>
+   </form_Permisologias>
+   <form_Permisologias id="3">
+      <value>
+         <Componet>Sub-Menus Padre</Componet>
+      </value>
+   </form_Permisologias>
+   <form_Permisologias id="4">
+      <value>
+         <Componet>Sub-Menus Hijos</Componet>
+      </value>
+   </form_Permisologias>
+   <form_Permisologias id="5">
+      <value>
+         <Componet>Sub-Menus Nietos</Componet>
+      </value>
+   </form_Permisologias>
+
+<!--              Botones               -->
+   <form_Permisologias id="6">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Permisologias>
+   
+<!-- ********************************** -->
+<!--         Formulario Maestros        -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Maestros id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="2">
+      <value>
+         <Componet>Nombre o Razon Social:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="3">
+      <value>
+         <Componet>Razon Social:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="4">
+      <value>
+         <Componet>Tipo de Maestro:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="5">
+      <value>
+         <Componet>Límite de Crédito:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="6">
+      <value>
+         <Componet>Límite de Monto en Vencimiento:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="7">
+      <value>
+         <Componet>Fecha:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="8">
+      <value>
+         <Componet>Días de Plazo:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="9">
+      <value>
+         <Componet>Actividad Económica:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="10">
+      <value>
+         <Componet>Recide en el País:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="11">
+      <value>
+         <Componet>Tipo de Moneda:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="12">
+      <value>
+         <Componet>Descuento:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="13">
+      <value>
+         <Componet>Condición de pago:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="14">
+      <value>
+         <Componet>Días de Vencimiento:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="15">
+      <value>
+         <Componet>Zona Comercial:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="16">
+      <value>
+         <Componet>R.I.F.:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="17">
+      <value>
+         <Componet>N.I.T.:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="18">
+      <value>
+         <Componet>Contribuyente de I.V.A.:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="19">
+      <value>
+         <Componet>Contribuyente Especial:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="20">
+      <value>
+         <Componet>% de Retención:</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="21">
+      <value>
+         <Componet>Observaciones:</Componet>
+      </value>
+   </form_Maestros>
+   
+<!--               CheckBox             -->
+   <form_Maestros id="22">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="23">
+      <value>
+         <Componet>Cliente</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="24">
+      <value>
+         <Componet>Proveedor</Componet>
+      </value>
+   </form_Maestros>
+   
+<!--              Botones               -->
+   <form_Maestros id="25">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="26">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="27">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="28">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="29">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="30">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="31">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="32">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="33">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="34">
+      <value>
+         <Componet>Abrir</Componet>
+      </value>
+   </form_Maestros>
+   
+<!--              jPanel                -->
+   <form_Maestros id="35">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="36">
+      <value>
+         <Componet>Datos Fiscales</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="37">
+      <value>
+         <Componet>Maestro</Componet>
+      </value>
+   </form_Maestros>
+   
+<!--                Tab                 -->
+   <form_Maestros id="38">
+      <value>
+         <Componet>Clientes</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="39">
+      <value>
+         <Componet>Proveedores</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="40">
+      <value>
+         <Componet>Todos</Componet>
+      </value>
+   </form_Maestros>
+   <form_Maestros id="41">
+      <value>
+         <Componet>Otros</Componet>
+      </value>
+   </form_Maestros>
+   
+<!--            Titulo Form             -->
+   <form_Maestros id="42">
+      <value>
+         <Componet>Maestros</Componet>
+      </value>
+   </form_Maestros>
+   
+<!-- ********************************** -->
+<!--        Formulario Documentos       -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Documentos id="1">
+      <value>
+         <Componet>N° Factura</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="2">
+      <value>
+         <Componet>Condición de Pago</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="3">
+      <value>
+         <Componet>Vendedor</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="4">
+      <value>
+         <Componet>Fecha</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="5">
+      <value>
+         <Componet>Buscar:</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="6">
+      <value>
+         <Componet>Cliente</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="7">
+      <value>
+         <Componet>Proveedor</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="8">
+      <value>
+         <Componet>Código Producto y Descripción</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="9">
+      <value>
+         <Componet>Stock</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="10">
+      <value>
+         <Componet>Precio Unitario</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="11">
+      <value>
+         <Componet>Cantidad</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="12">
+      <value>
+         <Componet>Descuento</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="13">
+      <value>
+         <Componet>Unidad de Medida</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="14">
+      <value>
+         <Componet>Total Productos</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="15">
+      <value>
+         <Componet>Total Base:</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="16">
+      <value>
+         <Componet>Total Iva:</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="17">
+      <value>
+         <Componet>Total Factura:</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="18">
+      <value>
+         <Componet>F2: Busqueda de Maestros; F3: Busqueda de Productos; F5: Guardar el Documento</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="19">
+      <value>
+         <Componet>ESC: Cancelar</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="20">
+      <value>
+         <Componet>F2: Incluir; F3: Imprimir; F4: Modificar; F5: Buscar; ESC: Salir</Componet>
+      </value>
+   </form_Documentos>
+   
+<!--              Botones               -->
+   <form_Documentos id="21">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="22">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="23">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="24">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="25">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="26">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="27">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="28">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="29">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="30">
+      <value>
+         <Componet>Agregar al detalle</Componet>
+      </value>
+   </form_Documentos>
+   <form_Documentos id="31">
+      <value>
+         <Componet>Eliminar del detalle</Componet>
+      </value>
+   </form_Documentos>
+   
+<!--              jPanel                -->
+   <form_Documentos id="32">
+      <value>
+         <Componet>Totalizador</Componet>
+      </value>
+   </form_Documentos>
+   
+<!-- ********************************** -->
+<!--      Formulario Buscar Maestros    -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_BuscarMaestro id="1">
+      <value>
+         <Componet>RIF:</Componet>
+      </value>
+   </form_BuscarMaestro>
+   <form_BuscarMaestro id="2">
+      <value>
+         <Componet>Nombre:</Componet>
+      </value>
+   </form_BuscarMaestro>
+   <form_BuscarMaestro id="3">
+      <value>
+         <Componet>F4: Buscar por Codigo o RIF; F5: Buscar por Nombre</Componet>
+      </value>
+   </form_BuscarMaestro>
+   <form_BuscarMaestro id="4">
+      <value>
+         <Componet>F6: Seleccionar Maestro; ESC: Salir</Componet>
+      </value>
+   </form_BuscarMaestro>
+   
+<!--              Botones               -->
+   <form_BuscarMaestro id="5">
+      <value>
+         <Componet>Agregar Maestro</Componet>
+      </value>
+   </form_BuscarMaestro>
+   <form_BuscarMaestro id="6">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_BuscarMaestro>
+   
+<!-- ********************************** -->
+<!--      Formulario Agrega Detalle     -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Agregaraldetalle id="1">
+      <value>
+         <Componet>Producto:</Componet>
+      </value>
+   </form_Agregaraldetalle>
+   <form_Agregaraldetalle id="2">
+      <value>
+         <Componet>Cantidad:</Componet>
+      </value>
+   </form_Agregaraldetalle>
+   <form_Agregaraldetalle id="3">
+      <value>
+         <Componet>F4: Buscar por Codigo o Nombre</Componet>
+      </value>
+   </form_Agregaraldetalle>
+   
+<!--              Botones               -->
+   <form_Agregaraldetalle id="4">
+      <value>
+         <Componet>Enviar</Componet>
+      </value>
+   </form_Agregaraldetalle>
+   
+<!-- ********************************** -->
+<!--        Formulario Actividad        -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Actividad id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="2">
+      <value>
+         <Componet>Descripción:</Componet>
+      </value>
+   </form_Actividad>
+
+<!--               CheckBox             -->   
+   <form_Actividad id="3">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_Actividad>
+   
+<!--              jPanel                -->
+   <form_Actividad id="4">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_Actividad>
+
+<!--              Botones               -->
+   <form_Actividad id="5">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="6">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="7">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="8">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="9">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="10">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="11">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="12">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Actividad>
+   <form_Actividad id="13">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Actividad>
+   
+<!-- ********************************** -->
+<!--      Formulario Estructura Cta     -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Estructura id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="2">
+      <value>
+         <Componet>Tipo de Cuenta:</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="3">
+      <value>
+         <Componet>Secuencia:</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="4">
+      <value>
+         <Componet>Descripción:</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="5">
+      <value>
+         <Componet>Posicion Inicial:</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="6">
+      <value>
+         <Componet>Longitud:</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="7">
+      <value>
+         <Componet>Formato:</Componet>
+      </value>
+   </form_Estructura>
+
+<!--              jPanel                -->
+   <form_Estructura id="8">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_Estructura>
+   
+<!--              Botones               -->
+   <form_Estructura id="9">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="10">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="11">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="12">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="13">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="14">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="15">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="16">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Estructura>
+   <form_Estructura id="17">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Estructura>
+      
+<!-- ********************************** -->
+<!--      Formulario Lista Precios      -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_ListaPrecios id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="2">
+      <value>
+         <Componet>Descripción:</Componet>
+      </value>
+   </form_ListaPrecios>
+
+<!--               CheckBox             -->   
+   <form_ListaPrecios id="3">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_ListaPrecios>
+   
+<!--              jPanel                -->
+   <form_ListaPrecios id="4">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_ListaPrecios>
+
+<!--              Botones               -->
+   <form_ListaPrecios id="5">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="6">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="7">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="8">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="9">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="10">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="11">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="12">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_ListaPrecios>
+   <form_ListaPrecios id="13">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_ListaPrecios>
+      
+<!-- ********************************** -->
+<!--         Formulario Moneda          -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Moneda id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="2">
+      <value>
+         <Componet>Descripción:</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="3">
+      <value>
+         <Componet>Nomenclatura:</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="4">
+      <value>
+         <Componet>Valor:</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="5">
+      <value>
+         <Componet>Fecha:</Componet>
+      </value>
+   </form_Moneda>
+   
+<!--               CheckBox             -->   
+   <form_Moneda id="6">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_Moneda>
+   
+<!--              jPanel                -->
+   <form_Moneda id="7">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_Moneda>
+   
+<!--              Botones               -->
+   <form_Moneda id="8">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="9">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="10">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="11">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="12">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="13">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="14">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="15">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Moneda>
+   <form_Moneda id="16">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Moneda>
+      
+<!-- ********************************** -->
+<!--         Formulario Precio          -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Precio id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="2">
+      <value>
+         <Componet>Código Producto:</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="3">
+      <value>
+         <Componet>Tipo de Precio:</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="4">
+      <value>
+         <Componet>Precio:</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="5">
+      <value>
+         <Componet>Unidad de Medida:</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="6">
+      <value>
+         <Componet>Fecha:</Componet>
+      </value>
+   </form_Precio>
+
+<!--               CheckBox             -->   
+   <form_Precio id="7">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_Precio>
+   
+<!--              jPanel                -->
+   <form_Precio id="8">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_Precio>
+   
+<!--              Botones               -->
+   <form_Precio id="9">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="10">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="11">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="12">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="13">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="14">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="15">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="16">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Precio>
+   <form_Precio id="17">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Precio>
+      
+<!-- ********************************** -->
+<!--         Formulario TipoDoc         -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_TipDocumentos id="1">
+      <value>
+         <Componet>Código</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="2">
+      <value>
+         <Componet>Descripción</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="3">
+      <value>
+         <Componet>Existencia</Componet>
+      </value>
+   </form_TipDocumentos>
+
+<!--               CheckBox             -->   
+   <form_TipDocumentos id="4">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="5">
+      <value>
+         <Componet>Calcula I.V.A</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="6">
+      <value>
+         <Componet>Retención de I.S.L.R</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="7">
+      <value>
+         <Componet>Retención de I.V.A</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="8">
+      <value>
+         <Componet>Físico</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="9">
+      <value>
+         <Componet>Lógico</Componet>
+      </value>
+   </form_TipDocumentos>
+
+<!--             OptionBotton           -->
+   <form_TipDocumentos id="10">
+      <value>
+         <Componet>Libro de Compras</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="11">
+      <value>
+         <Componet>Libro de Ventas</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="12">
+      <value>
+         <Componet>Doc. Ventas</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="13">
+      <value>
+         <Componet>Doc. Compras</Componet>
+      </value>
+   </form_TipDocumentos>
+   
+<!--              jPanel                -->
+   <form_TipDocumentos id="14">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="15">
+      <value>
+         <Componet>Impuestos</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="16">
+      <value>
+         <Componet>Inventario</Componet>
+      </value>
+   </form_TipDocumentos>
+
+<!--               Tab                  -->
+   <form_TipDocumentos id="17">
+      <value>
+         <Componet>Documentos de Ventas</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="18">
+      <value>
+         <Componet>Documentos de Compras</Componet>
+      </value>
+   </form_TipDocumentos>
+   
+<!--              Botones               -->
+   <form_TipDocumentos id="19">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="20">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="21">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="22">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="23">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="24">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="25">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="26">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_TipDocumentos>
+   <form_TipDocumentos id="27">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_TipDocumentos>
+      
+<!-- ********************************** -->
+<!--      Formulario Tipo Contacto      -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_TipoContacto id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="2">
+      <value>
+         <Componet>Descripción:</Componet>
+      </value>
+   </form_TipoContacto>
+
+<!--               CheckBox             -->   
+   <form_TipoContacto id="3">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_TipoContacto>
+   
+<!--              jPanel                -->
+   <form_TipoContacto id="4">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_TipoContacto>
+   
+<!--              Botones               -->
+   <form_TipoContacto id="5">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="6">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="7">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="8">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="9">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="10">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="11">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="12">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_TipoContacto>
+   <form_TipoContacto id="13">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_TipoContacto>
+      
+<!-- ********************************** -->
+<!--      Formulario Tipo Maestros      -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_TipoMaestros id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="2">
+      <value>
+         <Componet>Descripción:</Componet>
+      </value>
+   </form_TipoMaestros>
+
+<!--               CheckBox             -->   
+   <form_TipoMaestros id="3">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_TipoMaestros>
+   
+<!--              jPanel                -->
+   <form_TipoMaestros id="4">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_TipoMaestros>
+
+<!--              Botones               -->
+   <form_TipoMaestros id="5">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="6">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="7">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="8">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="9">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="10">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="11">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="12">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_TipoMaestros>
+   <form_TipoMaestros id="13">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_TipoMaestros>
+   
+<!-- ********************************** -->
+<!--        Formulario Und Medida       -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_UnidadMedida id="1">
+      <value>
+         <Componet>Código</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="2">
+      <value>
+         <Componet>Descripción</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="3">
+      <value>
+         <Componet>Cantidad de Unidades</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="4">
+      <value>
+         <Componet>Signo</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="5">
+      <value>
+         <Componet>Peso</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="6">
+      <value>
+         <Componet>Volumen Metros Cúbicos</Componet>
+      </value>
+   </form_UnidadMedida>
+   
+<!--               CheckBox             -->   
+   <form_UnidadMedida id="7">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="8">
+      <value>
+         <Componet>Multiplica el resultado por Unidades</Componet>
+      </value>
+   </form_UnidadMedida>
+   
+<!--              jPanel                -->
+   <form_UnidadMedida id="9">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_UnidadMedida>
+   
+<!--              Botones               -->
+   <form_UnidadMedida id="10">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="11">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="12">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="13">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="14">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="15">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="16">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="17">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_UnidadMedida>
+   <form_UnidadMedida id="18">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_UnidadMedida>
+   
+<!-- ********************************** -->
+<!--       Formulario Direcciones       -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Direcciones id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="2">
+      <value>
+         <Componet>Dirección:</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="3">
+      <value>
+         <Componet>Pais:</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="4">
+      <value>
+         <Componet>Estado:</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="5">
+      <value>
+         <Componet>Municipio:</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="6">
+      <value>
+         <Componet>Parroquia:</Componet>
+      </value>
+   </form_Direcciones>
+
+<!--               CheckBox             -->   
+   <form_Direcciones id="7">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_Direcciones>
+   
+<!--              jPanel                -->
+   <form_Direcciones id="8">
+      <value>
+         <Componet>Datos de Dirección</Componet>
+      </value>
+   </form_Direcciones>
+
+<!--              Botones               -->
+   <form_Direcciones id="9">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="10">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="11">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="12">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="13">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="14">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="15">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="16">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Direcciones>
+   <form_Direcciones id="17">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Direcciones>
+   
+<!-- ********************************** -->
+<!--         Formulario Empresas        -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Empresas id="1">
+      <value>
+         <Componet>Código</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="2">
+      <value>
+         <Componet>Nombre</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="3">
+      <value>
+         <Componet>RIF</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="4">
+      <value>
+         <Componet>Dirección</Componet>
+      </value>
+   </form_Empresas>   
+   
+<!--               CheckBox             -->   
+   <form_Empresas id="5">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_Empresas>
+   
+<!--              Botones               -->
+   <form_Empresas id="6">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="7">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="8">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="9">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="10">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="11">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="12">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="13">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="14">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Empresas>
+   
+<!--              jPanel                -->
+   <form_Empresas id="15">
+      <value>
+         <Componet>Datos de la Empresa</Componet>
+      </value>
+   </form_Empresas> 
+   
+<!--                Tab                 -->
+   <form_Empresas id="16">
+      <value>
+         <Componet>Empresa</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="17">
+      <value>
+         <Componet>Sucursal</Componet>
+      </value>
+   </form_Empresas>
+   <form_Empresas id="18">
+      <value>
+         <Componet>Región</Componet>
+      </value>
+   </form_Empresas> 
+   
+<!-- ********************************** -->
+<!--        Formulario Productos        -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Productos id="1">
+      <value>
+         <Componet>Código o Referencia</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="2">
+      <value>
+         <Componet>Nombre</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="3">
+      <value>
+         <Componet>Marca</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="4">
+      <value>
+         <Componet>Tipo de Impuesto</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="5">
+      <value>
+         <Componet>Proveedor</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="6">
+      <value>
+         <Componet>Descripción</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="7">
+      <value>
+         <Componet>Tipo de Precio</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="8">
+      <value>
+         <Componet>Unidad de Medida</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="9">
+      <value>
+         <Componet>Ruta de Imagen</Componet>
+      </value>
+   </form_Productos>
+   
+<!--               CheckBox             -->   
+   <form_Productos id="10">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_Productos>
+   
+<!--              jPanel                -->
+   <form_Productos id="11">
+      <value>
+         <Componet>Ficha del Producto</Componet>
+      </value>
+   </form_Productos> 
+   
+<!--                Tab                 -->
+   <form_Productos id="12">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_Productos>
+   
+<!--              Botones               -->
+   <form_Productos id="13">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="14">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="15">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="16">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="17">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="18">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="19">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="20">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Productos>
+   <form_Productos id="21">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Productos>
+   
+<!-- ********************************** -->
+<!--        Formulario Vendedor         -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_Vendedor id="1">
+      <value>
+         <Componet>Código</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="2">
+      <value>
+         <Componet>Nombre</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="3">
+      <value>
+         <Componet>Telefono</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="4">
+      <value>
+         <Componet>Comisión</Componet>
+      </value>
+   </form_Vendedor>
+   
+   <!--               CheckBox             -->   
+   <form_Vendedor id="5">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_Vendedor>
+   
+<!--              Botones               -->
+   <form_Vendedor id="6">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="7">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="8">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="9">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="10">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="11">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="12">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="13">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_Vendedor>
+   <form_Vendedor id="14">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_Vendedor>
+   
+<!-- ********************************** -->
+<!--      Formulario Plan de Ctas       -->
+<!--              Etiquetas             -->
+<!-- ********************************** -->
+   <form_PlanCuentas id="1">
+      <value>
+         <Componet>Código:</Componet>
+      </value>
+   </form_PlanCuentas>
+   <form_PlanCuentas id="2">
+      <value>
+         <Componet>Descripción:</Componet>
+      </value>
+   </form_PlanCuentas>
+
+<!--               CheckBox             -->   
+   <form_PlanCuentas id="3">
+      <value>
+         <Componet>Activo</Componet>
+      </value>
+   </form_PlanCuentas>
+   
+<!--              jPanel                -->
+   <form_PlanCuentas id="4">
+      <value>
+         <Componet>Datos</Componet>
+      </value>
+   </form_PlanCuentas>
+
+<!--              Botones               -->
+   <form_PlanCuentas id="5">
+      <value>
+         <Componet>Agregar</Componet>
+      </value>
+   </form_PlanCuentas>
+   <form_PlanCuentas id="6">
+      <value>
+         <Componet>Modificar</Componet>
+      </value>
+   </form_PlanCuentas>
+   <form_PlanCuentas id="7">
+      <value>
+         <Componet>Eliminar</Componet>
+      </value>
+   </form_PlanCuentas>
+   <form_PlanCuentas id="8">
+      <value>
+         <Componet>Anterior</Componet>
+      </value>
+   </form_PlanCuentas>
+   <form_PlanCuentas id="9">
+      <value>
+         <Componet>Adelante</Componet>
+      </value>
+   </form_PlanCuentas>
+   <form_PlanCuentas id="10">
+      <value>
+         <Componet>Salir</Componet>
+      </value>
+   </form_PlanCuentas>
+   <form_PlanCuentas id="11">
+      <value>
+         <Componet>Grabar</Componet>
+      </value>
+   </form_PlanCuentas>
+   <form_PlanCuentas id="12">
+      <value>
+         <Componet>Cancelar</Componet>
+      </value>
+   </form_PlanCuentas>
+   <form_PlanCuentas id="13">
+      <value>
+         <Componet>Buscar</Componet>
+      </value>
+   </form_PlanCuentas>
+</omnixsolutionsTrl>
